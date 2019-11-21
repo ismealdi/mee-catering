@@ -5,6 +5,9 @@
     <dist:module
         dist:instant="false"
         dist:title="@string/module_catering">
+        <dist:delivery>
+            <dist:install-time />
+        </dist:delivery>
         <dist:fusing dist:include="true" />
     </dist:module>
 
