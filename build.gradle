@@ -1,5 +1,8 @@
 apply plugin: 'com.android.dynamic-feature'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-allopen'
 
 android {
     compileSdkVersion 28
@@ -10,6 +13,10 @@ android {
         versionCode 1
         versionName "1.0"
 
+    }
+
+    dataBinding {
+        enabled = true
     }
 
 
